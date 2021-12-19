@@ -1,4 +1,6 @@
-/*
+/* TITULO : Funcion que Invierte un Int valor dado
+   PROBLEMA: Escribe una función nombrada reverse que invierta un Int valor dado . Si lo dado Int es null, entonces regresa -1.
+
 Entrada de muestra 1:
 654
 
@@ -59,4 +61,3 @@ fun reverse(input: Int?): Int {
     }
     
 }
-
