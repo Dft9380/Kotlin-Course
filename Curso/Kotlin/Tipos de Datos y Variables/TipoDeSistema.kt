@@ -42,3 +42,20 @@ fun reverse(input: Int?): Int {
         input.toString().reversed().toInt()
     }
 }
+
+//TODO opcion 5
+fun reverse(input: Int?): Int {
+    if (input == null) {
+        return -1
+    } else {
+        var reversedInput = emptyArray<Int>()
+        var input2 = input
+        do {
+            reversedInput += input2 % 10
+            input2 /= 10
+        } while (input2 > 0)
+        
+        return reversedInput.joinToString("").toInt()
+    }
+    
+}
